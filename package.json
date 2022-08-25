@@ -12,6 +12,7 @@
     "encryptlong": "^3.1.4",
     "jsencrypt": "^3.2.1",
     "socket.io-client": "^4.5.1",
+    "three": "^0.143.0",
     "vue": "^3.2.37"
   },
   "devDependencies": {
