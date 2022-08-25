@@ -1,4 +1,6 @@
 <script setup>
+import SpaceVue from './components/Space.vue'
+
 import { config } from './config.js'
 import { cp } from './modules/chatp.js'
 import { safe } from './modules/safe.js'
@@ -17,8 +19,17 @@ function register() {
 </script>
 
 <template>
-    <button @click="register()">register</button>
+    <space-vue/>
+    <div class="container">
+        <button @click="register()">register</button>
+    </div>
 </template>
     
-<style scoped>
+<style>
+.container{
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
 </style>
