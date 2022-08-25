@@ -124,6 +124,11 @@ debug@~4.3.1, debug@~4.3.2:
   dependencies:
     ms "2.1.2"
 
+encryptlong@^3.1.4:
+  version "3.1.4"
+  resolved "https://registry.yarnpkg.com/encryptlong/-/encryptlong-3.1.4.tgz#ef5543d8f1db91e7d05ee9122d5872e453956996"
+  integrity sha512-nx+om7MXaSBSBPBNKKPrOWMot/C0L0Ru8dy9WTyjO5k8Wo+1hsnK0d8uX1UjctkgcgEWhkKhVScniYDjXvnKgw==
+
 engine.io-client@~6.2.1:
   version "6.2.2"
   resolved "https://registry.yarnpkg.com/engine.io-client/-/engine.io-client-6.2.2.tgz#c6c5243167f5943dcd9c4abee1bfc634aa2cbdd0"
